@@ -772,7 +772,7 @@ install_v2ray_ws_tls(){
     nginx_conf_add
     web_camouflage
     ssl_judge_and_install
-    nginx_systemd
+    # nginx_systemd
     vmess_qr_config_tls_ws
     basic_information
     vmess_qr_link_image
