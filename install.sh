@@ -300,7 +300,7 @@ nginx_exist_check(){
         echo -e "${OK} ${GreenBG} Nginx已存在，跳过编译安装过程 ${Font}"
         sleep 2
     else
-        # nginx_install
+        nginx_install
     fi
 }
 nginx_install(){
