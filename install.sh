@@ -877,7 +877,7 @@ menu(){
     echo -e "${Green}15.${Font} 更新 证书crontab计划任务"
     echo -e "${Green}16.${Font} 退出 \n"
 
-    update_sh
+    # update_sh
     read -p "请输入数字：" menu_num
     case $menu_num in
         0)
